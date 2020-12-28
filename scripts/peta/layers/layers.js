@@ -86,29 +86,7 @@ const lyr_batas_desa = new ol.layer.Vector({
 });
 
 // Peta Dasar - Jaringan Jalan
-const format_jaringan_jalan = new ol.format.GeoJSON();
-const features_jaringan_jalan = format_jaringan_jalan.readFeatures(json_JaringanJalan, {
-    dataProjection: 'EPSG:4326',
-    featureProjection: 'EPSG:3857'
-});
-const jsonSource_jaringan_jalan = new ol.source.Vector({
-    attributions: [new ol.Attribution({
-        html: '<a href=""></a>'
-    })],
-});
-jsonSource_jaringan_jalan.addFeatures(features_jaringan_jalan);
-const lyr_jaringan_jalan = new ol.layer.Vector({
-    declutter: true,
-    source: jsonSource_jaringan_jalan,
-    style: style_JaringanJalan,
-    title: 'Jaringan Jalan 2019<br />\
-    <img src="../images/legends/legend-jalan-arteri.png" /> Jalan Arteri<br />\
-    <img src="../images/legends/legend-jalan-kolektor.png" /> Jalan Kolektor<br />\
-    <img src="../images/legends/legend-jalan-lain.png" /> Jalan Lain<br />\
-    <img src="../images/legends/legend-jalan-lokal.png" /> Jalan Lokal<br />\
-    <img src="../images/legends/legend-jalan-setapak.png" /> Jalan Setapak<br />\
-    <img src="../images/legends/legend-jalan-tol.png" /> Jalan Tol<br />'
-});
+
 
 // POI - Hasil Survey Lapangan
 const format_hasil_survey_lapangan = new ol.format.GeoJSON();
@@ -211,7 +189,7 @@ const lyr_lokasi_terminal_bus = new ol.layer.Vector({
 
 // Layer Group Peta Dasar
 let group_PetaDasar = new ol.layer.Group({
-    layers: [lyr_jaringan_jalan, lyr_batas_desa, lyr_batas_kecamatan],
+    layers: [lyr_batas_desa, lyr_batas_kecamatan],
     title: "Peta Dasar"
 });
 // Layer Group POI
@@ -235,7 +213,6 @@ let group_BasemapCitraSatelit = new ol.layer.Group({
 // Visible Basemaps Layer
 lyr_batas_kecamatan.setVisible(false);
 lyr_batas_desa.setVisible(false);
-lyr_jaringan_jalan.setVisible(false);
 
 // Visible POI Map Layer
 lyr_hasil_survey_lapangan.setVisible(false);
@@ -353,23 +330,7 @@ lyr_hasil_survey_lapangan.set('fieldLabels', {
 });
 
 // Data Peta Jaringan Jalan
-lyr_jaringan_jalan.set('fieldAliases', {
-    'NAMRJL': 'NAMRJL',
-    'REMARK': 'Kategori',
-    'LCODE': 'LCODE',
-    'SHAPE_Leng': 'SHAPE_Leng',
-    'Nilai': 'Nilai',
-});
-lyr_jaringan_jalan.set('fieldImages', {
-    'NAMRJL': 'Hidden',
-    'REMARK': 'WebView',
-    'LCODE': 'Hidden',
-    'SHAPE_Leng': 'Hidden',
-    'Nilai': 'Hidden',
-});
-lyr_jaringan_jalan.set('fieldLabels', {
-    'REMARK': 'inline label',
-});
+
 
 // Data Peta Batas Desa
 lyr_batas_desa.set('fieldAliases', {

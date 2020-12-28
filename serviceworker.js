@@ -110,10 +110,6 @@ if (workbox) {
             revision: '1'
         },
         {
-            url: '/scripts/peta/layers/geoJSON/JaringanJalan.js',
-            revision: '1'
-        },
-        {
             url: '/scripts/peta/layers/geoJSON/LokasiSaranaKesehatan.js',
             revision: '1'
         },
@@ -141,10 +137,6 @@ if (workbox) {
         },
         {
             url: '/scripts/peta/layers/styles/BatasKecamatan_style.js',
-            revision: '1'
-        },
-        {
-            url: '/scripts/peta/layers/styles/JaringanJalan_style.js',
             revision: '1'
         },
         {
@@ -333,30 +325,6 @@ if (workbox) {
         },
         {
             url: '/images/legends/legend-health-marker.png',
-            revision: '1'
-        },
-        {
-            url: '/images/legends/legend-jalan-arteri.png',
-            revision: '1'
-        },
-        {
-            url: '/images/legends/legend-jalan-kolektor.png',
-            revision: '1'
-        },
-        {
-            url: '/images/legends/legend-jalan-lain.png',
-            revision: '1'
-        },
-        {
-            url: '/images/legends/legend-jalan-lokal.png',
-            revision: '1'
-        },
-        {
-            url: '/images/legends/legend-jalan-setapak.png',
-            revision: '1'
-        },
-        {
-            url: '/images/legends/legend-jalan-tol.png',
             revision: '1'
         },
         {
