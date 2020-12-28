@@ -1,0 +1,153 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+/* Style Slider Section Element */
+
+.slider {
+    position: relative !important;
+}
+
+.slider .slides .caption {
+    margin-top: 40px;
+}
+
+.slider .slides .caption h3 {
+    font-size: 2.5em !important;
+    line-height: 1.5em;
+}
+
+.slider .slides .caption article p {
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+/* Style Global Section Element */
+
+section .fluid-container .row .title-section {
+    margin: 0;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    line-height: inherit;
+}
+
+.card .card-title {
+    font-size: 22px;
+}
+
+.card .card-content {
+    padding: 10px !important;
+}
+
+.card:hover {
+    -webkit-box-shadow: 2px 8px 15px rgba(0, 0, 0, .15);
+            box-shadow: 2px 8px 15px rgba(0, 0, 0, .15);
+    /* transform: translate3D(0, -2px, 10px); */
+}
+
+.btn, .btn-large, .btn-small {
+    background-color: #394867 !important;
+}
+
+.btn:hover, .btn-large:hover, .btn-small:hover {
+    background-color: #14274E !important;
+    -webkit-transform: all ease 0.5s;
+        -ms-transform: all ease 0.5s;
+            transform: all ease 0.5s;
+}
+
+/* Style Main Dataset Section Element */
+
+.main-dataset {
+    padding: 0 10px;
+}
+
+/* Style Support Dataset Section Element */
+
+.support-dataset {
+    padding: 0 10px 5px 10px;
+    background-color: #F1F6F9;
+}
+
+@media (min-width: 300px) {
+
+    /* Media Screen for Card Title Element */ 
+
+    span.card-title.flow-text {
+        font-size: 1em !important;
+        line-height: 1.4em !important;
+    }
+}
+
+@media (min-width: 450px) {
+
+    /* Media Screen for Card Title Element */ 
+
+    span.card-title.flow-text {
+        font-size: 1.25em !important;
+        line-height: 1.4em !important;
+    }
+}
+
+@media (min-width: 800px) {
+
+    /* Media Screen for Card Title Element */ 
+
+    span.card-title.flow-text {
+        font-size: 1.4em !important;
+        line-height: 1.4em !important;
+    }
+}
+
+@media (max-width: 375px) {
+
+    /* Media Screen for Card Element */
+
+    .card .card-content .card-title {
+        font-size: 1.1em;
+        line-height: 1.4em;
+    }
+
+    .card .card-action {
+        padding: 10px;
+    }
+
+    /* Media Screen for Btn Element */    
+
+    a.btn.waves-effect {
+        padding: 0px 20px !important;
+        font-size: 0.6em !important;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* Media Screen for Slider Element */
+
+    .slider .slides .caption {
+        margin-top: 50px;
+    }
+
+    .slider .slides .caption h3 {
+        font-size: 1.8em !important;
+        line-height: 1.4em;
+    }
+    
+    .slider .slides .caption article p {
+        font-size: 1.1em;
+        line-height: 1.4em;
+    }
+
+    /* Media Screen for Title Section Element */
+
+    section .fluid-container .row .title-section {
+        padding-top: 35px;
+        padding-bottom: 15px;
+        font-size: 1.8em;
+    }
+}

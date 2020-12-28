@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+
+		<!-- Web Title -->
+		<title>SIGKODA | Sistem Informasi Geografis Kesesuaian Lahan Kawasan Perkotaan Kabupaten Sidoarjo</title>
+
+		<!-- HTML Stylesheet Link Tags -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap" />
+		<link rel="stylesheet" href="/styles/libs/materialize.min.css" />
+		<link rel="stylesheet" href="/styles/index.css" />
+
+		<!-- Manifest -->
+		<link rel="manifest" href="/manifest.json" />
+
+		<!-- Apple Link Tag -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon-180x180.png" />
+
+		<!-- HTML Icon Link Tags -->
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="192x192" href="/images/icons/android-chrome-192x192.png" />
+		<link rel="icon" type="image/png" sizes="512x512" href="/images/icons/android-chrome-512x512.png" />
+
+		<!-- Safari 9 Link Tag -->
+		<link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#3647ad" />
+
+		<!-- HTML Meta Tags for Website Information -->
+		<meta
+			name="description"
+			content="Sistem Informasi Geografis berbasis website yang digunakan 
+			untuk menampilkan hasil analisis tentang kesesuaian lahan 
+			kawasan Perkotaan Kabupaten Sidoarjo"
+		/>
+		<meta name="author" content="Andrian Santiyon" />
+		<meta name="keywords" content="WebGIS, WEBGIS, webgis, SIG, sig" />
+		<meta name="copyright" content="labsan" />
+		<meta name="robots" content="index, follow" />
+		<meta name="theme-color" content="#14274E" />
+
+		<!-- Apple Meta Tags -->
+		<meta name="apple-mobile-web-app-title" content="Sigkoda" />
+		<meta name="apple-touch-fullscreen" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="#14274E" />
+
+		<!-- Windows, Edge & IE Meta Tag -->
+		<meta name="application-name" content="Sigkoda" />
+		<meta name="msapplication-TileColor" content="#f1f6f9" />
+		<meta name="msapplication-TileImage" content="/images/icons/favicon.ico" />
+		<meta name="msapplication-config" content="/images/icons/browserconfig.xml" />
+		<meta name="msapplication-square70x70logo" content="/images/icons/mstile-small.png" />
+		<meta name="msapplication-square150x150logo" content="/images/icons/mstile-medium.png" />
+		<meta name="msapplication-wide310x150logo" content="/images/icons/mstile-wide.png" />
+		<meta name="msapplication-square310x310logo" content="/images/icons/mstile-large.png" />
+	</head>
+
+	<body id="home" class="scrollspy">
+		<header>
+			<!-- Navbar -->
+			<div class="navbar-fixed">
+				<nav class="indigo darken-1" role="navigation">
+					<div class="container">
+						<div class="nav-wrapper">
+							<!-- Logo Website -->
+							<a href="#" class="brand-logo">
+								<img src="/images/icons/logo-header-200x70.png" height="60" alt="Logo Sigkoda" />
+							</a>
+
+							<!-- Show icon menu -->
+							<a href="#" data-target="mobile-nav" class="sidenav-trigger">
+								<i class="material-icons">menu</i>
+							</a>
+
+							<!-- Menu Website -->
+							<ul class="topnav right hide-on-med-and-down">
+								<li class="active"><a class="waves-effect" href="/pages/beranda.html">Beranda</a></li>
+								<li><a class="waves-effect" href="/pages/peta.html">Peta</a></li>
+								<li><a class="waves-effect" href="/pages/grafik.html">Grafik</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+
+			<!-- Sidebar -->
+			<ul id="mobile-nav" class="sidenav">
+				<li><a class="waves-effect" href="/pages/beranda.html">Beranda</a></li>
+				<li><a class="waves-effect" href="/pages/peta.html">Peta</a></li>
+				<li><a class="waves-effect" href="/pages/grafik.html">Grafik</a></li>
+			</ul>
+		</header>
+
+		<main>
+			<!-- Slider Section -->
+			<section>
+				<div class="slider">
+					<ul class="slides">
+						<li>
+							<img src="images/sliders/slide-1.jpg" height="400" alt="Lumpur Lapindo Sidoarjo" />
+							<div class="caption center-align white-text">
+								<h3>Selamat Datang di SIGKODA</h3>
+								<article>
+									<p>
+										Sistem Informasi Geografis Kesesuaian Lahan Kawasan Perkotaan di Kabupaten
+										Sidoarjo
+									</p>
+								</article>
+							</div>
+						</li>
+						<li>
+							<img src="images/sliders/slide-2.jpg" height="400" alt="GOR Sidoarjo" />
+							<div class="caption slide2 left-align white-text">
+								<h3>Fungsi</h3>
+								<article>
+									<!-- <p>
+                                    Sistem ini digunakan untuk memudahkan Pemerintah Kabupaten Sidoarjo dalam melakukan
+                                    rencana "Perluasan Kawasan Perkotaan" pada tiap kecamatan di Kabupaten Sidoarjo
+                                    </p> -->
+									<p>
+										Sistem ini digunakan untuk membantu Pemerintah Kabupaten Sidoarjo mengetahui
+										wilayah mana yang sesuai untuk dijadikan Kawasan Perkotaan pada tiap kecamatan
+										di Kabupaten Sidoarjo
+									</p>
+								</article>
+							</div>
+						</li>
+						<li>
+							<img src="images/sliders/slide-3.jpg" height="400" alt="Muara Kepitingan Sidoarjo" />
+							<div class="caption slide3 right-align white-text">
+								<h3>Manfaat</h3>
+								<article>
+									<p>
+										Dengan adanya sistem ini diharapkan bencana alam seperti banjir tidak terjadi
+										kembali, tata kota pada tiap wilayah kecamatan tertata rapi, dan mampu menjaga
+										kelestarian alam Kabupaten Sidoarjo
+									</p>
+								</article>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- Main Dataset Section -->
+			<section id="dataset" class="main-dataset">
+				<div class="fluid-container">
+					<div class="row">
+						<h3 class="grey-text text-darken-3 center light title-section">Dataset Batas Wilayah</h3>
+					</div>
+					<div class="row">
+						<!-- Tarik -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/1-kec-tarik.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Tarik"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Tarik
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/1-kec-tarik.rar"
+										>Download</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- Prambon -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/2-kec-prambon.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Prambon"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Prambon
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/2-kec-prambon.rar">
+										Download
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Krembung -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/3-kec-krembung.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Krembung"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Krembung
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/3-kec-krembung.rar">
+										Download
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Porong -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/4-kec-porong.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Porong"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Porong
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/4-kec-porong.rar">
+										Download
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Jabon -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/5-kec-jabon.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Jabon"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Jabon
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/5-kec-jabon.rar"
+										>Download</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- Tanggulangin -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/6-kec-tanggulangin.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Tanggulangin"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Tanggulangin
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/6-kec-tanggulangin.rar">
+										Download
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Candi -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/7-kec-candi.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Candi"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Candi
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/7-kec-candi.rar"
+										>Download</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- Sidoarjo -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/8-kec-sidoarjo.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Sidoarjo"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Sidoarjo
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/8-kec-sidoarjo.rar">
+										Download
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Tulangan -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/9-kec-tulangan.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Tulangan"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Tulangan
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/9-kec-tulangan.rar">
+										Download
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Wonoayu -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/10-kec-wonoayu.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Wonoayu"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Wonoayu
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/10-kec-wonoayu.rar">
+										Download
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Krian -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/11-kec-krian.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Krian"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Krian
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/11-kec-krian.rar">
+										Download
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Balongbendo -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/12-kec-balongbendo.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Balongbendo"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Balongbendo
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/12-kec-balongbendo.rar">
+										Download
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Taman -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/13-kec-taman.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Taman"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Taman
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/13-kec-taman.rar">
+										Download
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Sukodono -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/14-kec-sukodono.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Sukodono"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Sukodono
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/14-kec-sukodono.rar">
+										Download
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Buduran -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/15-kec-buduran.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Buduran"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Buduran
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/15-kec-buduran.rar">
+										Download
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Gedangan -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/16-kec-gedangan.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Gedangan"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Gedangan
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/16-kec-gedangan.rar">
+										Download
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Sedati -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/17-kec-sedati.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Sedati"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Sedati
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/17-kec-sedati.rar">
+										Download
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Waru -->
+						<div class="col s6 m4 l3">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/regions/18-kec-waru.jpg"
+										width="278.5"
+										height="196.78"
+										alt="Peta Batas Wilayah Kecamatan Waru"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Kecamatan <br />
+										Waru
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-batas-wilayah/18-kec-waru.rar"
+										>Download</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Support Dataset Section -->
+			<section class="support-dataset">
+				<div class="fluid-container">
+					<div class="row">
+						<h3 class="grey-text text-darken-3 center light title-section">Dataset Peta Dasar</h3>
+					</div>
+					<div class="row">
+						<!-- Jaringan Jalan -->
+						<div class="col s6 m4 l4">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/basemaps/jaringan-jalan.jpg"
+										width="378.83"
+										height="267.67"
+										alt="Peta Jaringan Jalan Kabupaten Sidoarjo"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">Peta Jaringan Jalan</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-dasar/jaringan-jalan.rar">Download</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Jaringan Sungai -->
+						<div class="col s6 m4 l4">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/basemaps/jaringan-sungai.jpg"
+										width="378.83"
+										height="267.67"
+										alt="Peta Jaringan Sungai Kabupaten Sidoarjo"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">Peta Jaringan Sungai</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-dasar/jaringan-sungai.rar">Download</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Kemiringan Lahan -->
+						<div class="col s6 m4 l4">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/basemaps/kemiringan-lahan.jpg"
+										width="378.83"
+										height="267.67"
+										alt="Peta Kemiringan Lahan Kabupaten Sidoarjo"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">Peta Kemiringan Lahan</span>
+								</div>
+								<div class="card-action">
+									<a href="files/peta-dasar/kemiringan-lahan.rar" class="btn waves-effect"
+										>Download</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- Danau -->
+						<div class="col s6 m4 l4">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/basemaps/danau.jpg"
+										width="378.83"
+										height="267.67"
+										alt="POI Danau/Waduk Kabupaten Sidoarjo"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Point of Interest (POI) <br />
+										Danau
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-dasar/danau.rar">Download</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Sarana Pendidikan -->
+						<div class="col s6 m4 l4">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/basemaps/sarana-pendidikan.jpg"
+										width="378.83"
+										height="267.67"
+										alt="POI Sarana Pendidikan Kabupaten Sidoarjo"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Point of Interest (POI) <br />
+										Sarana Pendidikan
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-dasar/sarana-pendidikan.rar"
+										>Download</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- Sarana Kesehatan -->
+						<div class="col s6 m4 l4">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/basemaps/sarana-kesehatan.jpg"
+										width="378.83"
+										height="267.67"
+										alt="POI Sarana Kesehatan Kabupaten Sidoarjo"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Point of Interest (POI) <br />
+										Sarana Kesehatan
+									</span>
+								</div>
+								<div class="card-action">
+									<a href="files/peta-dasar/sarana-kesehatan.rar" class="btn waves-effect"
+										>Download</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- Peta Stasiun Kereta Api -->
+						<div class="col s6 m4 l4">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/basemaps/sarana-stasiun-ka.jpg"
+										width="378.83"
+										height="267.67"
+										alt="POI Stasiun Kereta Api Kabupaten Sidoarjo"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Point of Interest (POI) <br />
+										Stasiun KA
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-dasar/sarana-stasiun-ka.rar"
+										>Download</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- Peta Terminal Bis -->
+						<div class="col s6 m4 l4">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/basemaps/sarana-terminal-bis.jpg"
+										width="378.83"
+										height="267.67"
+										alt="POI Terminal Bus Kabupaten Sidoarjo"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Point of Interest (POI) <br />
+										Terminal Bus
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-dasar/sarana-terminal-bis.rar"
+										>Download</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- Peta Survey Lapangan -->
+						<div class="col s6 m4 l4">
+							<div class="card light center">
+								<div class="card-image">
+									<img
+										class="responsive-img materialboxed"
+										src="images/basemaps/hasil-survey-lapangan.jpg"
+										width="378.83"
+										height="267.67"
+										alt="POI Hasil Survey Lapangan Kabupaten Sidoarjo"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title flow-text">
+										Point of Interest (POI) <br />
+										Survey Lapangan
+									</span>
+								</div>
+								<div class="card-action">
+									<a class="btn waves-effect" href="files/peta-dasar/hasil-survey-lapangan.rar">
+										Download
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- JavaScript Links -->
+		<script src="/scripts/libs/materialize.min.js"></script>
+		<script src="/scripts/utils/event-elems.js"></script>
+		<script src="/scripts/utils/register-sw.js"></script>
+	</body>
+</html>

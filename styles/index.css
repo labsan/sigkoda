@@ -1,0 +1,28 @@
+@import "./pages/beranda.css";
+/* @import "./pages/peta.css"; */
+@import "./pages/grafik.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Style Header Element */
+
+header .nav-wrapper .brand-logo img {
+    max-width: 200px;
+    margin-top: 5px;
+}
+
+header .nav-wrapper .brand-logo {
+    cursor: context-menu;
+}
+
+/* Media Header Element */
+@media (max-width: 600px) {
+    header .nav-wrapper .brand-logo img {
+        margin-top: 0;
+        padding: 5px;
+    }
+}
