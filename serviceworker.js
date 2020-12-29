@@ -129,6 +129,10 @@ if (workbox) {
             url: '/scripts/peta/layers/geoJSON/LokasiTerminalBus.js',
             revision: '1'
         },
+        {
+            url: '/scripts/peta/layers/geoJSON/JaringanSungai.js',
+            revision: '1'
+        },
 
         // Folder scripts > peta > layers > styles
         {
@@ -157,6 +161,10 @@ if (workbox) {
         },
         {
             url: '/scripts/peta/layers/styles/LokasiTerminalBus_style.js',
+            revision: '1'
+        },
+        {
+            url: '/scripts/peta/layers/styles/JaringanSungai_style.js',
             revision: '1'
         },
 
@@ -333,6 +341,10 @@ if (workbox) {
         },
         {
             url: '/images/legends/legend-red-suitability.png',
+            revision: '1'
+        },
+        {
+            url: '/images/legends/legend-river.png',
             revision: '1'
         },
         {

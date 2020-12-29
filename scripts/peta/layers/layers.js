@@ -85,8 +85,24 @@ const lyr_batas_desa = new ol.layer.Vector({
     title: 'Batas Desa 2019'
 });
 
-// Peta Dasar - Jaringan Jalan
-
+// Peta Dasar - Jaringan Sungai
+const format_jaringan_sungai = new ol.format.GeoJSON();
+const features_jaringan_sungai = format_jaringan_sungai.readFeatures(json_JaringanSungai, {
+    dataProjection: 'EPSG:4326',
+    featureProjection: 'EPSG:3857'
+});
+const jsonSource_jaringan_sungai = new ol.source.Vector({
+    attributions: [new ol.Attribution({
+        html: '<a href=""></a>'
+    })],
+});
+jsonSource_jaringan_sungai.addFeatures(features_jaringan_sungai);
+const lyr_jaringan_sungai = new ol.layer.Vector({
+    declutter: true,
+    source: jsonSource_jaringan_sungai,
+    style: style_JaringanSungai,
+    title: '<img src="../images/legends/legend-river.png" /> Jaringan Sungai 2019'
+});
 
 // POI - Hasil Survey Lapangan
 const format_hasil_survey_lapangan = new ol.format.GeoJSON();
@@ -189,7 +205,7 @@ const lyr_lokasi_terminal_bus = new ol.layer.Vector({
 
 // Layer Group Peta Dasar
 let group_PetaDasar = new ol.layer.Group({
-    layers: [lyr_batas_desa, lyr_batas_kecamatan],
+    layers: [lyr_jaringan_sungai, lyr_batas_desa, lyr_batas_kecamatan],
     title: "Peta Dasar"
 });
 // Layer Group POI
@@ -204,7 +220,7 @@ let group_PetaPerencanaan = new ol.layer.Group({
 });
 // Layer Group Basemap & Citra Satelit
 let group_BasemapCitraSatelit = new ol.layer.Group({
-    layers: [lyr_OSM, lyr_google_satellite],
+    layers: [lyr_google_satellite, lyr_OSM],
     title: "Basemap dan Citra Satelit"
 });
 
@@ -213,6 +229,7 @@ let group_BasemapCitraSatelit = new ol.layer.Group({
 // Visible Basemaps Layer
 lyr_batas_kecamatan.setVisible(false);
 lyr_batas_desa.setVisible(false);
+lyr_jaringan_sungai.setVisible(true);
 
 // Visible POI Map Layer
 lyr_hasil_survey_lapangan.setVisible(false);
@@ -222,7 +239,7 @@ lyr_lokasi_stasiun_ka.setVisible(false);
 lyr_lokasi_terminal_bus.setVisible(false);
 
 // Visible Planner Map Layer
-lyr_raster_kesesuaian_lahan.setVisible(true);
+lyr_raster_kesesuaian_lahan.setVisible(false);
 
 // Visible Basemap & Satellite Images Layer
 lyr_OSM.setVisible(true);
@@ -329,8 +346,30 @@ lyr_hasil_survey_lapangan.set('fieldLabels', {
     'Info Lokas': 'inline label',
 });
 
-// Data Peta Jaringan Jalan
-
+// Data Peta Jaringan Sungai
+lyr_jaringan_sungai.set('fieldAliases', {
+    'NAMOBJ': 'Sungai',
+    'JNSSNG': 'JNSSNG',
+    'KLSSNG': 'KLSSNG',
+    'REMARK': 'REMARK',
+    'LCODE': 'LCODE',
+    'SHAPE_Leng': 'SHAPE_Leng',
+    'SHAPE_Area': 'SHAPE_Area',
+    'Nilai': 'Nilai',
+});
+lyr_jaringan_sungai.set('fieldImages', {
+    'NAMOBJ': 'WebView',
+    'JNSSNG': 'Hidden',
+    'KLSSNG': 'Hidden',
+    'REMARK': 'Hidden',
+    'LCODE': 'Hidden',
+    'SHAPE_Leng': 'Hidden',
+    'SHAPE_Area': 'Hidden',
+    'Nilai': 'Hidden',
+});
+lyr_jaringan_sungai.set('fieldLabels', {
+    'NAMOBJ': 'inline label',
+});
 
 // Data Peta Batas Desa
 lyr_batas_desa.set('fieldAliases', {
