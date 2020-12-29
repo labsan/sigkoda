@@ -356,6 +356,10 @@ if (workbox) {
             revision: '1'
         },
         {
+            url: '/images/legends/legend-region.png',
+            revision: '1'
+        },
+        {
             url: '/images/legends/legend-river.png',
             revision: '1'
         },

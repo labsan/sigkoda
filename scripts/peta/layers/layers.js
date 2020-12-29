@@ -63,7 +63,7 @@ const lyr_batas_kecamatan = new ol.layer.Vector({
     declutter: true,
     source: jsonSource_batas_kecamatan,
     style: style_BatasKecamatan,
-    title: 'Batas Kecamatan 2019'
+    title: '<img src="../images/legends/legend-region.png" /> Batas Kecamatan 2019'
 });
 
 // Peta Dasar - Batas Desa
@@ -82,7 +82,7 @@ const lyr_batas_desa = new ol.layer.Vector({
     declutter: true,
     source: jsonSource_batas_desa,
     style: style_BatasDesa,
-    title: 'Batas Desa 2019'
+    title: '<img src="../images/legends/legend-region.png" /> Batas Desa 2019'
 });
 
 // Peta Dasar - Jaringan Sungai
@@ -235,20 +235,20 @@ let group_PointOfInterest = new ol.layer.Group({
 // Layer Group Peta Perencanaan
 let group_PetaPerencanaan = new ol.layer.Group({
     layers: [lyr_raster_kesesuaian_lahan],
-    title: "Peta Perencanaan"
+    title: "Peta Hasil Analisis"
 });
 // Layer Group Basemap & Citra Satelit
 let group_BasemapCitraSatelit = new ol.layer.Group({
-    layers: [lyr_google_satellite, lyr_OSM],
+    layers: [lyr_OSM, lyr_google_satellite],
     title: "Basemap dan Citra Satelit"
 });
 
 
 
 // Visible Basemaps Layer
-lyr_batas_kecamatan.setVisible(false);
+lyr_batas_kecamatan.setVisible(true);
 lyr_batas_desa.setVisible(false);
-lyr_jaringan_sungai.setVisible(true);
+lyr_jaringan_sungai.setVisible(false);
 
 // Visible POI Map Layer
 lyr_hasil_survey_lapangan.setVisible(false);
@@ -256,10 +256,10 @@ lyr_lokasi_sarana_kesehatan.setVisible(false);
 lyr_lokasi_sarana_pendidikan.setVisible(false);
 lyr_lokasi_stasiun_ka.setVisible(false);
 lyr_lokasi_terminal_bus.setVisible(false);
-lyr_danau.setVisible(true);
+lyr_danau.setVisible(false);
 
 // Visible Planner Map Layer
-lyr_raster_kesesuaian_lahan.setVisible(false);
+lyr_raster_kesesuaian_lahan.setVisible(true);
 
 // Visible Basemap & Satellite Images Layer
 lyr_OSM.setVisible(true);
