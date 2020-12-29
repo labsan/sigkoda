@@ -202,6 +202,25 @@ const lyr_lokasi_terminal_bus = new ol.layer.Vector({
     title: '<img src="../images/legends/legend-terminal-bus.png" /> Lokasi Terminal Bus 2019'
 });
 
+// POI - Danau/Situ
+const format_danau = new ol.format.GeoJSON();
+const features_danau = format_danau.readFeatures(json_LokasiDanauWaduk, {
+    dataProjection: 'EPSG:4326',
+    featureProjection: 'EPSG:3857'
+});
+const jsonSource_danau = new ol.source.Vector({
+    attributions: [new ol.Attribution({
+        html: '<a href=""></a>'
+    })],
+});
+jsonSource_danau.addFeatures(features_danau);
+const lyr_danau = new ol.layer.Vector({
+    declutter: true,
+    source: jsonSource_danau,
+    style: style_LokasiDanauWaduk,
+    title: '<img src="../images/legends/legend-lake.png" /> Lokasi Danau/Setu 2019'
+});
+
 
 // Layer Group Peta Dasar
 let group_PetaDasar = new ol.layer.Group({
@@ -210,7 +229,7 @@ let group_PetaDasar = new ol.layer.Group({
 });
 // Layer Group POI
 let group_PointOfInterest = new ol.layer.Group({
-    layers: [lyr_lokasi_terminal_bus, lyr_lokasi_stasiun_ka, lyr_lokasi_sarana_pendidikan, lyr_lokasi_sarana_kesehatan, lyr_hasil_survey_lapangan],
+    layers: [lyr_danau, lyr_lokasi_terminal_bus, lyr_lokasi_stasiun_ka, lyr_lokasi_sarana_pendidikan, lyr_lokasi_sarana_kesehatan, lyr_hasil_survey_lapangan],
     title: "Point of Interest (POI)"
 });
 // Layer Group Peta Perencanaan
@@ -237,6 +256,7 @@ lyr_lokasi_sarana_kesehatan.setVisible(false);
 lyr_lokasi_sarana_pendidikan.setVisible(false);
 lyr_lokasi_stasiun_ka.setVisible(false);
 lyr_lokasi_terminal_bus.setVisible(false);
+lyr_danau.setVisible(true);
 
 // Visible Planner Map Layer
 lyr_raster_kesesuaian_lahan.setVisible(false);
@@ -254,6 +274,19 @@ let layersList = [
 ];
 
 
+
+// Data POI Danau/Situ
+lyr_danau.set('fieldAliases', {
+    'NAMOBJ': 'NAMOBJ',
+    'REMARK': 'REMARK',
+    'LCODE': 'LCODE',
+});
+lyr_danau.set('fieldImages', {
+    'NAMOBJ': 'Hidden',
+    'REMARK': 'Hidden',
+    'LCODE': 'Hidden',
+});
+lyr_danau.set('fieldLabels', {});
 
 // Data POI Terminal Bus
 lyr_lokasi_terminal_bus.set('fieldAliases', {
