@@ -286,7 +286,10 @@ lyr_danau.set('fieldImages', {
     'REMARK': 'WebView',
     'LCODE': 'Hidden',
 });
-lyr_danau.set('fieldLabels', {});
+lyr_danau.set('fieldLabels', {
+    'Objek': 'inline label',
+    'Sumber': 'inline label',
+});
 
 // Data POI Terminal Bus
 lyr_lokasi_terminal_bus.set('fieldAliases', {
