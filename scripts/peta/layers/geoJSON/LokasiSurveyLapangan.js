@@ -14,7 +14,8 @@ const json_LokasiSurveyLapangan = {
             Jam: "7:15:00 AM",
             Kecamatan: "Sukodono",
             Landmark: "Sarana Kesehatan",
-            "Info Lokas": "Puskesmas Sukodono"
+            "Info Lokas": "Puskesmas Sukodono",
+            Sumber: "Peneliti"
         },
         geometry: {
             type: "Point",

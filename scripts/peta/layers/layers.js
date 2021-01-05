@@ -277,13 +277,13 @@ let layersList = [
 
 // Data POI Danau/Situ
 lyr_danau.set('fieldAliases', {
-    'NAMOBJ': 'NAMOBJ',
-    'REMARK': 'REMARK',
+    'NAMOBJ': 'Objek',
+    'REMARK': 'Sumber',
     'LCODE': 'LCODE',
 });
 lyr_danau.set('fieldImages', {
-    'NAMOBJ': 'Hidden',
-    'REMARK': 'Hidden',
+    'NAMOBJ': 'WebView',
+    'REMARK': 'WebView',
     'LCODE': 'Hidden',
 });
 lyr_danau.set('fieldLabels', {});

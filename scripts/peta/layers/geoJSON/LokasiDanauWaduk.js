@@ -9,7 +9,10 @@ const json_LokasiDanauWaduk = {
     },
     "features": [{
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -29,7 +32,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -59,7 +65,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -82,7 +91,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -108,7 +120,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -157,7 +172,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -187,7 +205,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -219,7 +240,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -237,7 +261,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -259,7 +286,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -277,7 +307,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -302,7 +335,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -330,7 +366,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -377,7 +416,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -400,7 +442,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -420,7 +465,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -449,7 +497,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -473,7 +524,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -546,7 +600,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -583,7 +640,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -639,7 +699,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -665,7 +728,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -693,7 +759,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -730,7 +799,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -752,7 +824,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -779,7 +854,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -802,7 +880,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -831,7 +912,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -858,7 +942,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -891,7 +978,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -918,7 +1008,10 @@ const json_LokasiDanauWaduk = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "Objek": "Danau/Situ",
+                "Sumber": "Indonesia Geospatial Portal 2019"
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
