@@ -2,7 +2,7 @@
 const wms_layers = [];
 
 // Initial basemap Google Satellite
-var lyr_google_satellite = new ol.layer.Tile({
+const lyr_google_satellite = new ol.layer.Tile({
     'title': 'Satelit (Google Map)',
     'type': 'base',
     'opacity': 1.000000,
@@ -55,7 +55,7 @@ const features_batas_kecamatan = format_batas_kecamatan.readFeatures(json_BatasK
 });
 const jsonSource_batas_kecamatan = new ol.source.Vector({
     attributions: [new ol.Attribution({
-        html: '<a href=""></a>'
+        html: '<a href="http://tanahair.indonesia.go.id/portal-web/">Badan Informasi Geospasial Republik Indonesia, 2015-2019. Peta Rupabumi Digital Indonesia. Bogor, Jawa-Barat.</a>'
     })],
 });
 jsonSource_batas_kecamatan.addFeatures(features_batas_kecamatan);
@@ -74,7 +74,7 @@ const features_batas_desa = format_batas_desa.readFeatures(json_BatasDesa, {
 });
 const jsonSource_batas_desa = new ol.source.Vector({
     attributions: [new ol.Attribution({
-        html: '<a href=""></a>'
+        html: '<a href="http://tanahair.indonesia.go.id/portal-web/">Badan Informasi Geospasial Republik Indonesia, 2015-2019. Peta Rupabumi Digital Indonesia. Bogor, Jawa-Barat.</a>'
     })],
 });
 jsonSource_batas_desa.addFeatures(features_batas_desa);
@@ -93,7 +93,7 @@ const features_jaringan_sungai = format_jaringan_sungai.readFeatures(json_Jaring
 });
 const jsonSource_jaringan_sungai = new ol.source.Vector({
     attributions: [new ol.Attribution({
-        html: '<a href=""></a>'
+        html: '<a href="http://tanahair.indonesia.go.id/portal-web/">Badan Informasi Geospasial Republik Indonesia, 2015-2019. Peta Rupabumi Digital Indonesia. Bogor, Jawa-Barat.</a>'
     })],
 });
 jsonSource_jaringan_sungai.addFeatures(features_jaringan_sungai);
@@ -112,7 +112,7 @@ const features_hasil_survey_lapangan = format_hasil_survey_lapangan.readFeatures
 });
 const jsonSource_hasil_survey_lapangan = new ol.source.Vector({
     attributions: [new ol.Attribution({
-        html: '<a href=""></a>'
+        html: '<a href="http://tanahair.indonesia.go.id/portal-web/">Badan Informasi Geospasial Republik Indonesia, 2015-2019. Peta Rupabumi Digital Indonesia. Bogor, Jawa-Barat.</a>'
     })],
 });
 jsonSource_hasil_survey_lapangan.addFeatures(features_hasil_survey_lapangan);
@@ -134,7 +134,7 @@ const features_lokasi_sarana_kesehatan = format_lokasi_sarana_kesehatan.readFeat
 });
 const jsonSource_lokasi_sarana_kesehatan = new ol.source.Vector({
     attributions: [new ol.Attribution({
-        html: '<a href=""></a>'
+        html: '<a href="http://tanahair.indonesia.go.id/portal-web/">Badan Informasi Geospasial Republik Indonesia, 2015-2019. Peta Rupabumi Digital Indonesia. Bogor, Jawa-Barat.</a>'
     })],
 });
 jsonSource_lokasi_sarana_kesehatan.addFeatures(features_lokasi_sarana_kesehatan);
@@ -153,7 +153,7 @@ const features_lokasi_sarana_pendidikan = format_lokasi_sarana_pendidikan.readFe
 });
 const jsonSource_lokasi_sarana_pendidikan = new ol.source.Vector({
     attributions: [new ol.Attribution({
-        html: '<a href=""></a>'
+        html: '<a href="http://tanahair.indonesia.go.id/portal-web/">Badan Informasi Geospasial Republik Indonesia, 2015-2019. Peta Rupabumi Digital Indonesia. Bogor, Jawa-Barat.</a>'
     })],
 });
 jsonSource_lokasi_sarana_pendidikan.addFeatures(features_lokasi_sarana_pendidikan);
@@ -172,7 +172,7 @@ const features_lokasi_stasiun_ka = format_lokasi_stasiun_ka.readFeatures(json_Lo
 });
 const jsonSource_lokasi_stasiun_ka = new ol.source.Vector({
     attributions: [new ol.Attribution({
-        html: '<a href=""></a>'
+        html: '<a href="http://tanahair.indonesia.go.id/portal-web/">Badan Informasi Geospasial Republik Indonesia, 2015-2019. Peta Rupabumi Digital Indonesia. Bogor, Jawa-Barat.</a>'
     })],
 });
 jsonSource_lokasi_stasiun_ka.addFeatures(features_lokasi_stasiun_ka);
@@ -191,7 +191,7 @@ const features_lokasi_terminal_bus = format_lokasi_terminal_bus.readFeatures(jso
 });
 const jsonSource_lokasi_terminal_bus = new ol.source.Vector({
     attributions: [new ol.Attribution({
-        html: '<a href=""></a>'
+        html: '<a href="http://tanahair.indonesia.go.id/portal-web/">Badan Informasi Geospasial Republik Indonesia, 2015-2019. Peta Rupabumi Digital Indonesia. Bogor, Jawa-Barat.</a>'
     })],
 });
 jsonSource_lokasi_terminal_bus.addFeatures(features_lokasi_terminal_bus);
@@ -210,7 +210,7 @@ const features_danau = format_danau.readFeatures(json_LokasiDanauWaduk, {
 });
 const jsonSource_danau = new ol.source.Vector({
     attributions: [new ol.Attribution({
-        html: '<a href=""></a>'
+        html: '<a href="http://tanahair.indonesia.go.id/portal-web/">Badan Informasi Geospasial Republik Indonesia, 2015-2019. Peta Rupabumi Digital Indonesia. Bogor, Jawa-Barat.</a>'
     })],
 });
 jsonSource_danau.addFeatures(features_danau);
@@ -358,6 +358,7 @@ lyr_hasil_survey_lapangan.set('fieldAliases', {
     'Kecamatan': 'Kecamatan',
     'Landmark': 'Kategori',
     'Info Lokas': 'Landmark',
+    'Sumber': 'Sumber',
 });
 lyr_hasil_survey_lapangan.set('fieldImages', {
     'No.': 'Hidden',
@@ -370,6 +371,7 @@ lyr_hasil_survey_lapangan.set('fieldImages', {
     'Kecamatan': 'WebView',
     'Landmark': 'WebView',
     'Info Lokas': 'WebView',
+    'Sumber': 'WebView',
 });
 lyr_hasil_survey_lapangan.set('fieldLabels', {
     'Tanggal': 'inline label',
@@ -377,6 +379,7 @@ lyr_hasil_survey_lapangan.set('fieldLabels', {
     'Kecamatan': 'inline label',
     'Landmark': 'inline label',
     'Info Lokas': 'inline label',
+    'Sumber': 'inline label',
 });
 
 // Data Peta Jaringan Sungai
