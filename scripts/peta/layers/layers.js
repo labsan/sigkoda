@@ -277,14 +277,18 @@ let layersList = [
 
 // Data POI Danau/Situ
 lyr_danau.set('fieldAliases', {
-    'NAMOBJ': 'Objek',
-    'REMARK': 'Sumber',
+    'NAMOBJ': 'NAMOBJ',
+    'REMARK': 'REMARK',
     'LCODE': 'LCODE',
+    'Objek': 'Objek',
+    'Sumber': 'Sumber',
 });
 lyr_danau.set('fieldImages', {
-    'NAMOBJ': 'WebView',
-    'REMARK': 'WebView',
+    'NAMOBJ': 'Hidden',
+    'REMARK': 'Hidden',
     'LCODE': 'Hidden',
+    'Objek': 'WebView',
+    'Sumber': 'WebView',
 });
 lyr_danau.set('fieldLabels', {
     'Objek': 'inline label',
@@ -395,6 +399,7 @@ lyr_jaringan_sungai.set('fieldAliases', {
     'SHAPE_Leng': 'SHAPE_Leng',
     'SHAPE_Area': 'SHAPE_Area',
     'Nilai': 'Nilai',
+    'Sumber': 'Sumber',
 });
 lyr_jaringan_sungai.set('fieldImages', {
     'NAMOBJ': 'WebView',
@@ -405,9 +410,11 @@ lyr_jaringan_sungai.set('fieldImages', {
     'SHAPE_Leng': 'Hidden',
     'SHAPE_Area': 'Hidden',
     'Nilai': 'Hidden',
+    'Sumber': 'WebView',
 });
 lyr_jaringan_sungai.set('fieldLabels', {
     'NAMOBJ': 'inline label',
+    'Sumber': 'inline label',
 });
 
 // Data Peta Batas Desa
@@ -444,7 +451,7 @@ lyr_batas_kecamatan.set('fieldAliases', {
     'WADMKC': 'Kecamatan',
     'REMARK': 'REMARK',
     'JKELURAHAN': 'Kelurahan',
-    'JDESA': 'Desa',
+    'JDESA': 'Jml. Desa',
     'JPENDUDUK': 'Penduduk',
     'LPPENDUDUK': 'LPPENDUDUK',
     'JFS_SD': 'SD',
@@ -452,14 +459,17 @@ lyr_batas_kecamatan.set('fieldAliases', {
     'JFS_SMA': 'SMA',
     'JFS_SMK': 'SMK',
     'JFS_PT': 'PT',
+    'SRN_Pendidikan': 'Pendidikan',
     'JFK_RS': 'RS',
     'JFK_RSBer': 'JFK_RSBer',
     'JFK_POLI': 'Poliklinik',
     'JFK_PUSK': 'Puskesmas',
     'JFK_PUSK_P': 'JFK_PUSK_P',
     'JFK_APOTEK': 'JFK_APOTEK',
+    'SRN_Kesehatan': 'Kesehatan',
     'JFP_MASJID': 'Masjid',
     'JFP_PURA': 'Pura',
+    'SRN_Peribadatan': 'Peribadatan',
     'JBA_BANJIR': 'Lap. Banjir',
     'LUAS_KM2': 'Luas (km2)',
     'SUMBER': 'Sumber'
@@ -474,22 +484,25 @@ lyr_batas_kecamatan.set('fieldImages', {
     'JDESA': 'WebView',
     'JPENDUDUK': 'WebView',
     'LPPENDUDUK': 'Hidden',
-    'JFS_SD': 'WebView',
-    'JFS_SMP': 'WebView',
-    'JFS_SMA': 'WebView',
-    'JFS_SMK': 'WebView',
-    'JFS_PT': 'WebView',
-    'JFK_RS': 'WebView',
+    'JFS_SD': 'Hidden',
+    'JFS_SMP': 'Hidden',
+    'JFS_SMA': 'Hidden',
+    'JFS_SMK': 'Hidden',
+    'JFS_PT': 'Hidden',
+    'SRN_Pendidikan': 'WebView',
+    'JFK_RS': 'Hidden',
     'JFK_RSBer': 'Hidden',
-    'JFK_POLI': 'WebView',
-    'JFK_PUSK': 'WebView',
+    'JFK_POLI': 'Hidden',
+    'JFK_PUSK': 'Hidden',
     'JFK_PUSK_P': 'Hidden',
     'JFK_APOTEK': 'Hidden',
-    'JFP_MASJID': 'WebView',
-    'JFP_PURA': 'WebView',
+    'SRN_Kesehatan': 'WebView',
+    'JFP_MASJID': 'Hidden',
+    'JFP_PURA': 'Hidden',
+    'SRN_Peribadatan': 'WebView',
     'JBA_BANJIR': 'WebView',
     'LUAS_KM2': 'WebView',
-    'SUMBER': 'Hidden'
+    'SUMBER': 'WebView'
 });
 lyr_batas_kecamatan.set('fieldLabels', {
     'KODE': 'inline label',
@@ -497,19 +510,12 @@ lyr_batas_kecamatan.set('fieldLabels', {
     'JKELURAHAN': 'inline label',
     'JDESA': 'inline label',
     'JPENDUDUK': 'inline label',
-    'JFS_SD': 'inline label',
-    'JFS_SMP': 'inline label',
-    'JFS_SMA': 'inline label',
-    'JFS_SMK': 'inline label',
-    'JFS_PT': 'inline label',
-    'JFK_RS': 'inline label',
-    'JFK_POLI': 'inline label',
-    'JFK_PUSK': 'inline label',
-    'JFP_MASJID': 'inline label',
-    'JFP_PURA': 'inline label',
+    'SRN_Pendidikan': 'inline label',
+    'SRN_Kesehatan': 'inline label',
+    'SRN_Peribadatan': 'inline label',
     'JBA_BANJIR': 'inline label',
     'LUAS_KM2': 'inline label',
-    'SUMBER': 'no label'
+    'SUMBER': 'header label'
 });
 lyr_batas_kecamatan.on('precompose', function (evt) {
     evt.context.globalCompositeOperation = 'normal';
