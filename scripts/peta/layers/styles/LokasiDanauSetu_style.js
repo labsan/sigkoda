@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-const style_LokasiDanauWaduk = function (feature, resolution) {
+const style_LokasiDanauSetu = function (feature, resolution) {
     var context = {
         feature: feature,
         variables: {}

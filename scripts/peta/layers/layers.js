@@ -204,7 +204,7 @@ const lyr_lokasi_terminal_bus = new ol.layer.Vector({
 
 // POI - Danau/Situ
 const format_danau = new ol.format.GeoJSON();
-const features_danau = format_danau.readFeatures(json_LokasiDanauWaduk, {
+const features_danau = format_danau.readFeatures(json_LokasiDanauSetu, {
     dataProjection: 'EPSG:4326',
     featureProjection: 'EPSG:3857'
 });
@@ -217,7 +217,7 @@ jsonSource_danau.addFeatures(features_danau);
 const lyr_danau = new ol.layer.Vector({
     declutter: true,
     source: jsonSource_danau,
-    style: style_LokasiDanauWaduk,
+    style: style_LokasiDanauSetu,
     title: '<img src="../images/legends/legend-lake.png" /> Lokasi Danau/Setu 2019'
 });
 

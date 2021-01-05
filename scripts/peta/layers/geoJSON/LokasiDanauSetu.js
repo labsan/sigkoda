@@ -1,4 +1,4 @@
-const json_LokasiDanauWaduk = {
+const json_LokasiDanauSetu = {
     "type": "FeatureCollection",
     "name": "LokasiDanauWaduk2019_0",
     "crs": {
