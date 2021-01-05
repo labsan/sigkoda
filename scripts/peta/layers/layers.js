@@ -414,6 +414,7 @@ lyr_batas_desa.set('fieldAliases', {
     'WADMKC': 'Kecamatan',
     'WADMKK': 'Kab/Kota',
     'WADMPR': 'Provinsi',
+    'Sumber': 'Sumber',
 });
 lyr_batas_desa.set('fieldImages', {
     'NAMOBJ': 'WebView',
@@ -421,12 +422,14 @@ lyr_batas_desa.set('fieldImages', {
     'WADMKC': 'WebView',
     'WADMKK': 'WebView',
     'WADMPR': 'WebView',
+    'Sumber': 'WebView',
 });
 lyr_batas_desa.set('fieldLabels', {
     'NAMOBJ': 'inline label',
     'WADMKC': 'inline label',
     'WADMKK': 'inline label',
     'WADMPR': 'inline label',
+    'Sumber': 'inline label',
 });
 // Data Peta Batas Desa
 
