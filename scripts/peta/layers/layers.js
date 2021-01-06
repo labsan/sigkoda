@@ -341,17 +341,22 @@ lyr_lokasi_sarana_pendidikan.set('fieldLabels', {});
 // Data POI Sarana Kesehatan
 lyr_lokasi_sarana_kesehatan.set('fieldAliases', {
     'NAMOBJ': 'NAMOBJ',
-    'REMARK': 'REMARK',
+    'REMARK': 'Landmark',
     'TIPSHT': 'TIPSHT',
     'LCODE': 'LCODE',
+    'Sumber': 'Sumber',
 });
 lyr_lokasi_sarana_kesehatan.set('fieldImages', {
     'NAMOBJ': 'Hidden',
-    'REMARK': 'Hidden',
+    'REMARK': 'WebView',
     'TIPSHT': 'Hidden',
     'LCODE': 'Hidden',
+    'Sumber': 'WebView',
 });
-lyr_lokasi_sarana_kesehatan.set('fieldLabels', {});
+lyr_lokasi_sarana_kesehatan.set('fieldLabels', {
+    'REMARK': 'header label',
+    'Sumber': 'header label',
+});
 
 // Data POI Hasil Survey Lapangan
 lyr_hasil_survey_lapangan.set('fieldAliases', {

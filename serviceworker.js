@@ -134,8 +134,8 @@ if (workbox) {
             revision: '1'
         },
         {
-            url: '/scripts/peta/layers/geoJSON/LokasiDanauWaduk.js',
-            revision: '1'
+            url: '/scripts/peta/layers/geoJSON/LokasiDanauSetu.js',
+            revision: '2'
         },
 
         // Folder scripts > peta > layers > styles
@@ -172,8 +172,8 @@ if (workbox) {
             revision: '1'
         },
         {
-            url: '/scripts/peta/layers/styles/LokasiDanauWaduk_style.js',
-            revision: '1'
+            url: '/scripts/peta/layers/styles/LokasiDanauSetu_style.js',
+            revision: '2'
         },
 
         // Folder scripts > peta > libs
