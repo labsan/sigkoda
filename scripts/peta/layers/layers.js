@@ -280,7 +280,7 @@ lyr_danau.set('fieldAliases', {
     'NAMOBJ': 'NAMOBJ',
     'REMARK': 'REMARK',
     'LCODE': 'LCODE',
-    'Objek': 'Objek',
+    'Objek': 'Landmark',
     'Sumber': 'Sumber',
 });
 lyr_danau.set('fieldImages', {
@@ -300,26 +300,40 @@ lyr_lokasi_terminal_bus.set('fieldAliases', {
     'NAMOBJ': 'NAMOBJ',
     'REMARK': 'REMARK',
     'LCODE': 'LCODE',
+    'Objek': 'Landmark',
+    'Sumber': 'Sumber',
 });
 lyr_lokasi_terminal_bus.set('fieldImages', {
     'NAMOBJ': 'Hidden',
     'REMARK': 'Hidden',
     'LCODE': 'Hidden',
+    'Objek': 'WebView',
+    'Sumber': 'WebView',
 });
-lyr_lokasi_terminal_bus.set('fieldLabels', {});
+lyr_lokasi_terminal_bus.set('fieldLabels', {
+    'Objek': 'inline label',
+    'Sumber': 'inline label',
+});
 
 // Data POI Stasiun KA
 lyr_lokasi_stasiun_ka.set('fieldAliases', {
     'NAMOBJ': 'NAMOBJ',
     'REMARK': 'REMARK',
     'LCODE': 'LCODE',
+    'Objek': 'Landmark',
+    'Sumber': 'Sumber',
 });
 lyr_lokasi_stasiun_ka.set('fieldImages', {
     'NAMOBJ': 'Hidden',
     'REMARK': 'Hidden',
     'LCODE': 'Hidden',
+    'Objek': 'WebView',
+    'Sumber': 'WebView',
 });
-lyr_lokasi_stasiun_ka.set('fieldLabels', {});
+lyr_lokasi_stasiun_ka.set('fieldLabels', {
+    'Objek': 'inline label',
+    'Sumber': 'inline label',
+});
 
 // Data POI Sarana Pendidikan
 lyr_lokasi_sarana_pendidikan.set('fieldAliases', {
@@ -328,6 +342,8 @@ lyr_lokasi_sarana_pendidikan.set('fieldAliases', {
     'REMARK': 'REMARK',
     'LCODE': 'LCODE',
     'JJGPDF': 'JJGPDF',
+    'Objek': 'Landmark',
+    'Sumber': 'Sumber',
 });
 lyr_lokasi_sarana_pendidikan.set('fieldImages', {
     'NAMOBJ': 'Hidden',
@@ -335,27 +351,34 @@ lyr_lokasi_sarana_pendidikan.set('fieldImages', {
     'REMARK': 'Hidden',
     'LCODE': 'Hidden',
     'JJGPDF': 'Hidden',
+    'Objek': 'WebView',
+    'Sumber': 'WebView',
 });
-lyr_lokasi_sarana_pendidikan.set('fieldLabels', {});
+lyr_lokasi_sarana_pendidikan.set('fieldLabels', {
+    'Objek': 'inline label',
+    'Sumber': 'inline label',
+});
 
 // Data POI Sarana Kesehatan
 lyr_lokasi_sarana_kesehatan.set('fieldAliases', {
     'NAMOBJ': 'NAMOBJ',
-    'REMARK': 'Landmark',
+    'REMARK': 'REMARK',
     'TIPSHT': 'TIPSHT',
     'LCODE': 'LCODE',
+    'Objek': 'Landmark',
     'Sumber': 'Sumber',
 });
 lyr_lokasi_sarana_kesehatan.set('fieldImages', {
     'NAMOBJ': 'Hidden',
-    'REMARK': 'WebView',
+    'REMARK': 'Hidden',
     'TIPSHT': 'Hidden',
     'LCODE': 'Hidden',
+    'Objek': 'WebView',
     'Sumber': 'WebView',
 });
 lyr_lokasi_sarana_kesehatan.set('fieldLabels', {
-    'REMARK': 'header label',
-    'Sumber': 'header label',
+    'Objek': 'inline label',
+    'Sumber': 'inline label',
 });
 
 // Data POI Hasil Survey Lapangan
@@ -446,7 +469,6 @@ lyr_batas_desa.set('fieldLabels', {
     'WADMPR': 'inline label',
     'Sumber': 'inline label',
 });
-// Data Peta Batas Desa
 
 // Data Peta Batas Kecamatan
 lyr_batas_kecamatan.set('fieldAliases', {
@@ -455,27 +477,27 @@ lyr_batas_kecamatan.set('fieldAliases', {
     'WADMKK': 'WADMKK',
     'WADMKC': 'Kecamatan',
     'REMARK': 'REMARK',
-    'JKELURAHAN': 'Kelurahan',
+    'JKELURAHAN': 'Jml. Kelurahan',
     'JDESA': 'Jml. Desa',
-    'JPENDUDUK': 'Penduduk',
+    'JPENDUDUK': 'Jml. Penduduk',
     'LPPENDUDUK': 'LPPENDUDUK',
     'JFS_SD': 'SD',
     'JFS_SMP': 'SMP',
     'JFS_SMA': 'SMA',
     'JFS_SMK': 'SMK',
     'JFS_PT': 'PT',
-    'SRN_Pendidikan': 'Pendidikan',
+    'SRN_Pendidikan': 'Sarana Pendidikan',
     'JFK_RS': 'RS',
     'JFK_RSBer': 'JFK_RSBer',
     'JFK_POLI': 'Poliklinik',
     'JFK_PUSK': 'Puskesmas',
     'JFK_PUSK_P': 'JFK_PUSK_P',
     'JFK_APOTEK': 'JFK_APOTEK',
-    'SRN_Kesehatan': 'Kesehatan',
+    'SRN_Kesehatan': 'Sarana Kesehatan',
     'JFP_MASJID': 'Masjid',
     'JFP_PURA': 'Pura',
-    'SRN_Peribadatan': 'Peribadatan',
-    'JBA_BANJIR': 'Lap. Banjir',
+    'SRN_Peribadatan': 'Sarana Peribadatan',
+    'JBA_BANJIR': 'Laporan Banjir',
     'LUAS_KM2': 'Luas (km2)',
     'SUMBER': 'Sumber'
 });

@@ -7,8 +7,9 @@ html, body {
 }
 
 th, td {
-    vertical-align: top;
+    vertical-align: bottom;
     text-align: left;
+    white-space: nowrap;
 }
 
 #map {

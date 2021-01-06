@@ -11,7 +11,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI KANAL PORONG",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -749,7 +749,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI PORONG",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2130,7 +2130,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI ROWOGEDEK",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -2167,7 +2167,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI BALONGGATI",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -2378,7 +2378,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI SANGANGGEWU",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -2552,7 +2552,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI BANGKOK",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -2583,7 +2583,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI  BAHGEPUK",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -3108,7 +3108,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI BANGILTAK",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -3362,7 +3362,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI KANAL PORONG",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -3459,7 +3459,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "Tidak diketahui",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -3784,7 +3784,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI KUNTULAN",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4038,7 +4038,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI BRASAN",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -4252,7 +4252,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI KENDIL",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -4443,7 +4443,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI SELAYAR",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -4653,7 +4653,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI KEDUNGLARANGAN",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -4710,7 +4710,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI MAS",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -5745,7 +5745,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI PURBOYO",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -6390,7 +6390,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI  KEDUNGOLENG",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -7172,7 +7172,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI BADER",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -7455,7 +7455,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI PUCANG",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -7799,7 +7799,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI  KAJARTENGGULI",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -7883,7 +7883,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI KAPETINGAN",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -8571,7 +8571,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI  SUKO",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -9040,7 +9040,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI KEDUNGPELUR",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -9476,7 +9476,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI PURBOYO",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -9731,7 +9731,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI BULUBENDA",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -9947,7 +9947,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI GISIK",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -10023,7 +10023,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI TAMBAKAGUNG",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -10481,7 +10481,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI BULUBENDA",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -10518,7 +10518,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI BULUBENDA",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -10566,7 +10566,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI BULUBENDA",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -10601,7 +10601,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI CURAHOMBO",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -10683,7 +10683,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI OBAR ABIR",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -10776,7 +10776,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI BUDURAN",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -10842,7 +10842,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI BUNTUNG",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -11780,7 +11780,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI BUNTUNG",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -12392,7 +12392,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "Tidak diketahui",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -12945,7 +12945,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI TAMBAKOSO",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -14679,7 +14679,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "KALI BRANTAS",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -15166,7 +15166,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "Tidak diketahui",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -15395,7 +15395,7 @@ const json_JaringanSungai = {
             "type": "Feature",
             "properties": {
                 "NAMOBJ": "Tidak diketahui",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",

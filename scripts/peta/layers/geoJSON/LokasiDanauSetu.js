@@ -11,7 +11,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -34,7 +34,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -67,7 +67,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -93,7 +93,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -122,7 +122,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -174,7 +174,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -207,7 +207,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -242,7 +242,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -263,7 +263,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -288,7 +288,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -309,7 +309,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -337,7 +337,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -368,7 +368,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -418,7 +418,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -444,7 +444,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -467,7 +467,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -499,7 +499,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -526,7 +526,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -602,7 +602,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -642,7 +642,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -701,7 +701,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -730,7 +730,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -761,7 +761,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -801,7 +801,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -826,7 +826,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -856,7 +856,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -882,7 +882,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -914,7 +914,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -944,7 +944,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -980,7 +980,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",
@@ -1010,7 +1010,7 @@ const json_LokasiDanauSetu = {
             "type": "Feature",
             "properties": {
                 "Objek": "Danau/Situ",
-                "Sumber": "Indonesia Geospatial Portal 2019"
+                "Sumber": "BIG Republik Indonesia, 2015-2019."
             },
             "geometry": {
                 "type": "Polygon",

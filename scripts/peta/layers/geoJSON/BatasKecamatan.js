@@ -20,7 +20,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "39",
             JBA_BANJIR: "1",
             LUAS_KM2: "34,23",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -1080,7 +1080,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "58",
             JBA_BANJIR: "5",
             LUAS_KM2: "31,21",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -2047,7 +2047,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "59",
             JBA_BANJIR: "13",
             LUAS_KM2: "32,29",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -3011,7 +3011,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "80",
             JBA_BANJIR: "0",
             LUAS_KM2: "36,06",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -3861,7 +3861,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "37",
             JBA_BANJIR: "5",
             LUAS_KM2: "81",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -5192,7 +5192,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "75",
             JBA_BANJIR: "0",
             LUAS_KM2: "29,55",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -5960,7 +5960,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "55",
             JBA_BANJIR: "5",
             LUAS_KM2: "40,67",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -7848,7 +7848,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "43",
             JBA_BANJIR: "7",
             LUAS_KM2: "79,43",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -15838,7 +15838,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "42",
             JBA_BANJIR: "6",
             LUAS_KM2: "41,03",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -18884,7 +18884,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "57",
             JBA_BANJIR: "10",
             LUAS_KM2: "31,54",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -19796,7 +19796,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "45",
             JBA_BANJIR: "15",
             LUAS_KM2: "62,56",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -22700,7 +22700,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "98",
             JBA_BANJIR: "0",
             LUAS_KM2: "24,06",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -23672,7 +23672,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "137",
             JBA_BANJIR: "11",
             LUAS_KM2: "30,32",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -31767,7 +31767,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "51",
             JBA_BANJIR: "2",
             LUAS_KM2: "32,68",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -32679,7 +32679,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "36",
             JBA_BANJIR: "8",
             LUAS_KM2: "29,82",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -33768,7 +33768,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "127",
             JBA_BANJIR: "0",
             LUAS_KM2: "31,40",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -34875,7 +34875,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "55",
             JBA_BANJIR: "0",
             LUAS_KM2: "33,92",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
         },
         geometry: {
             type: "Polygon",
@@ -35744,7 +35744,7 @@ const json_BatasKecamatan = {
             SRN_Peribadatan: "53",
             JBA_BANJIR: "2",
             LUAS_KM2: "32,50",
-            SUMBER: "Kabupaten Sidoarjo Dalam Angka 2020"
+            SUMBER: "BPS Kabupaten Sidoarjo"
 
         },
         geometry: {
