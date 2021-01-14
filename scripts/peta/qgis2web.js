@@ -1,10 +1,14 @@
 isTracking = false;
 
+// Fungsi kendali lokasi pengguna
 geolocateControl = function (opt_options) {
-    var options = opt_options || {};
-    var button = document.createElement('button');
+
+    const options = opt_options || {};
+
+    const button = document.createElement('button');
     button.className += 'icons';
-    var handleGeolocate = function () {
+
+    const handleGeolocate = function () {
         if (isTracking) {
             map.removeLayer(geolocateOverlay);
             isTracking = false;
@@ -14,11 +18,14 @@ geolocateControl = function (opt_options) {
             isTracking = true;
         }
     };
+
     button.addEventListener('click', handleGeolocate, false);
     button.addEventListener('touchstart', handleGeolocate, false);
-    var element = document.createElement('div');
+
+    const element = document.createElement('div');
     element.className = 'geolocate ol-unselectable ol-control';
     element.appendChild(button);
+
     ol.control.Control.call(this, {
         element: element,
         target: options.target
@@ -28,7 +35,7 @@ ol.inherits(geolocateControl, ol.control.Control);
 
 var container = document.getElementById('popup');
 var content = document.getElementById('popup-content');
-var closer = document.getElementById('popup-closer');
+var closer = document.getElementById('popup-closer'); +
 closer.onclick = function () {
     container.style.display = 'none';
     closer.blur();
@@ -42,7 +49,8 @@ var expandedAttribution = new ol.control.Attribution({
     collapsible: false
 });
 
-var map = new ol.Map({
+// Fungsi menampilkan peta
+const map = new ol.Map({
     controls: ol.control.defaults({
         attribution: false
     }).extend([
@@ -58,7 +66,8 @@ var map = new ol.Map({
     })
 });
 
-var layerSwitcher = new ol.control.LayerSwitcher({
+// Inisialisasi objek switcher layer peta
+const layerSwitcher = new ol.control.LayerSwitcher({
     tipLabel: "Layers"
 });
 map.addControl(layerSwitcher);
@@ -74,6 +83,8 @@ var ALL_FIELDS = 1
  * @param layerList {Array} List of ol.Layer instances
  * @param layer {ol.Layer} Layer to find field info about
  */
+
+//  Fungsi menampilkan daftar layer peta
 function getPopupFields(layerList, layer) {
     // Determine the index that the layer will have in the popupLayers Array,
     // if the layersList contains more items than popupLayers then we need to
@@ -84,7 +95,9 @@ function getPopupFields(layerList, layer) {
 
 
 var collection = new ol.Collection();
-var featureOverlay = new ol.layer.Vector({
+
+// Inisialisasi objek menampilkan data peta vektor
+const featureOverlay = new ol.layer.Vector({
     map: map,
     source: new ol.source.Vector({
         features: collection,
@@ -107,7 +120,9 @@ var doHighlight = false;
 var doHover = false;
 
 var highlight;
-var onPointerMove = function (evt) {
+
+// Fungsi menampilkan informasi dari peta
+const onPointerMove = function (evt) {
     if (!doHover && !doHighlight) {
         return;
     }
@@ -138,6 +153,7 @@ var onPointerMove = function (evt) {
             currentLayer = layer;
             clusteredFeatures = feature.get("features");
             var clusterFeature;
+
             if (typeof clusteredFeatures !== "undefined") {
                 if (doPopup) {
                     popupText = '<ul>';
@@ -267,6 +283,7 @@ var onSingleClick = function (evt) {
     var currentFeatureKeys;
     var count = 1;
     var clusteredFeatures;
+
     map.forEachFeatureAtPixel(pixel, function (feature, layer) {
         if (feature instanceof ol.Feature) {
             var doPopup = false;
@@ -342,6 +359,7 @@ var onSingleClick = function (evt) {
 
     var viewProjection = map.getView().getProjection();
     var viewResolution = map.getView().getResolution();
+
     for (i = 0; i < wms_layers.length; i++) {
         if (wms_layers[i][1]) {
             var url = wms_layers[i][0].getSource().getGetFeatureInfoUrl(
@@ -413,10 +431,10 @@ var geolocateOverlay = new ol.layer.Vector({
 geolocation.setTracking(true);
 
 
-
 var attribution = document.getElementsByClassName('ol-attribution')[0];
 var attributionList = attribution.getElementsByTagName('ul')[0];
 var firstLayerAttribution = attributionList.getElementsByTagName('li')[0];
 var qgis2webAttribution = document.createElement('li');
+
 qgis2webAttribution.innerHTML = '<a href="https://github.com/tomchadwin/qgis2web">qgis2web</a>';
 attributionList.insertBefore(qgis2webAttribution, firstLayerAttribution);

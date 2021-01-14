@@ -159,31 +159,28 @@ ol.control.LayerSwitcher.prototype.setVisible_ = function (lyr, visible) {
  * @param {Number} idx Position in parent group list.
  */
 ol.control.LayerSwitcher.prototype.renderLayer_ = function (lyr, idx) {
+    let this_ = this;
 
-    var this_ = this;
+    const li = document.createElement('li');
 
-    var li = document.createElement('li');
+    const lyrTitle = lyr.get('title');
+    const lyrId = lyr.get('title').replace(/\s+/g, '-') + '_' + idx;
 
-    var lyrTitle = lyr.get('title');
-    var lyrId = lyr.get('title').replace(/\s+/g, '-') + '_' + idx;
-
-    var label = document.createElement('label');
+    const label = document.createElement('label');
 
     if (lyr.getLayers) {
-
         li.className = 'group';
+
         label.innerHTML = lyrTitle;
         li.appendChild(label);
 
-        var ul = document.createElement('ul');
+        const ul = document.createElement('ul');
         li.appendChild(ul);
 
         this.renderLayers_(lyr, ul);
-
     } else {
-
         li.className = 'layer';
-        var input = document.createElement('input');
+        const input = document.createElement('input');
         if (lyr.get('type') === 'base') {
             input.type = 'radio';
             input.name = 'base';
@@ -201,9 +198,7 @@ ol.control.LayerSwitcher.prototype.renderLayer_ = function (lyr, idx) {
         label.htmlFor = lyrId;
         label.innerHTML = lyrTitle;
         li.appendChild(label);
-
     }
-
     return li;
 
 };
