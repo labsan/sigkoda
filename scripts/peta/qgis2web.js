@@ -1,8 +1,7 @@
-isTracking = false;
-
 // Fungsi kendali lokasi pengguna
 geolocateControl = function (opt_options) {
 
+    let isTracking = false;
     const options = opt_options || {};
 
     const button = document.createElement('button');
@@ -19,8 +18,8 @@ geolocateControl = function (opt_options) {
         }
     };
 
-    button.addEventListener('click', handleGeolocate, false);
-    button.addEventListener('touchstart', handleGeolocate, false);
+    button.addEventListener('click', handleGeolocate);
+    button.addEventListener('touchstart', handleGeolocate);
 
     const element = document.createElement('div');
     element.className = 'geolocate ol-unselectable ol-control';
@@ -35,7 +34,7 @@ ol.inherits(geolocateControl, ol.control.Control);
 
 var container = document.getElementById('popup');
 var content = document.getElementById('popup-content');
-var closer = document.getElementById('popup-closer'); +
+var closer = document.getElementById('popup-closer');
 closer.onclick = function () {
     container.style.display = 'none';
     closer.blur();

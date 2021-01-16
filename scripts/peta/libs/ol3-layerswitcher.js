@@ -91,7 +91,7 @@ ol.control.LayerSwitcher.prototype.renderPanel = function () {
         this.panel.removeChild(this.panel.firstChild);
     }
 
-    var ul = document.createElement('ul');
+    const ul = document.createElement('ul');
     this.panel.appendChild(ul);
     this.renderLayers_(this.getMap(), ul);
 
@@ -160,12 +160,8 @@ ol.control.LayerSwitcher.prototype.setVisible_ = function (lyr, visible) {
  */
 ol.control.LayerSwitcher.prototype.renderLayer_ = function (lyr, idx) {
     let this_ = this;
-
     const li = document.createElement('li');
-
     const lyrTitle = lyr.get('title');
-    const lyrId = lyr.get('title').replace(/\s+/g, '-') + '_' + idx;
-
     const label = document.createElement('label');
 
     if (lyr.getLayers) {
@@ -187,7 +183,6 @@ ol.control.LayerSwitcher.prototype.renderLayer_ = function (lyr, idx) {
         } else {
             input.type = 'checkbox';
         }
-        input.id = lyrId;
         input.checked = lyr.get('visible');
 
         input.onchange = function (e) {
@@ -195,7 +190,6 @@ ol.control.LayerSwitcher.prototype.renderLayer_ = function (lyr, idx) {
         };
         li.appendChild(input);
 
-        label.htmlFor = lyrId;
         label.innerHTML = lyrTitle;
         li.appendChild(label);
     }
